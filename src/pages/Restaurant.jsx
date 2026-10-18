@@ -1,6 +1,18 @@
 import { useCallback, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { ArrowLeft, ArrowRight, Clock, Heart, Leaf, MapPin, Plus, Search, ShoppingBag, Star, Tag } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Clock,
+  Heart,
+  Leaf,
+  MapPin,
+  Plus,
+  Search,
+  ShoppingBag,
+  Star,
+  Tag,
+} from "lucide-react";
 import { getMenu, getRestaurant, imageUrl } from "../data/restaurants";
 import { useStore } from "../context/Store";
 import { EmptyState, VegMark } from "../components/UI";

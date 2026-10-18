@@ -1,6 +1,18 @@
 import { useCallback, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { ArrowRight, ChevronDown, Heart, MapPin, Menu, ShoppingBag, Tag, X, Check, Leaf, Clock } from "lucide-react";
+import {
+  ArrowRight,
+  ChevronDown,
+  Heart,
+  MapPin,
+  Menu,
+  ShoppingBag,
+  Tag,
+  X,
+  Check,
+  Leaf,
+  Clock,
+} from "lucide-react";
 import { Brand, Modal } from "./UI";
 import { useStore } from "../context/Store";
 import { locations } from "../data/restaurants";

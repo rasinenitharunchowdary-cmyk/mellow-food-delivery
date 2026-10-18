@@ -1,6 +1,18 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { ArrowLeft, ArrowRight, Bike, Check, CheckCheck, ChefHat, Heart, MapPin, PackageCheck, RotateCcw, ShoppingBag } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Bike,
+  Check,
+  CheckCheck,
+  ChefHat,
+  Heart,
+  MapPin,
+  PackageCheck,
+  RotateCcw,
+  ShoppingBag,
+} from "lucide-react";
 import { useStore } from "../context/Store";
 import { Bill } from "../components/Cart";
 import { EmptyState, Modal, StepHeading } from "../components/UI";

@@ -1,4 +1,11 @@
-import { createContext, useContext, useEffect, useMemo, useReducer, useState } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+  useReducer,
+  useState,
+} from "react";
 import { calculateTotals, MAX_QUANTITY, sanitizeCart } from "../lib/commerce";
 
 const Store = createContext(null);

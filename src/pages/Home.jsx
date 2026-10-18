@@ -1,6 +1,20 @@
 import { useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { ArrowRight, ArrowUpRight, Bike, Check, Clock, Heart, Leaf, Search, SlidersHorizontal, Sparkles, Star, Tag, X } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Bike,
+  Check,
+  Clock,
+  Heart,
+  Leaf,
+  Search,
+  SlidersHorizontal,
+  Sparkles,
+  Star,
+  Tag,
+  X,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import { categories, imageUrl, restaurants } from "../data/restaurants";
 import { useStore } from "../context/Store";

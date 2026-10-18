@@ -1,6 +1,14 @@
 import { useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, ArrowRight, Banknote, Check, MapPin, ShieldCheck, ShoppingBag } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Banknote,
+  Check,
+  MapPin,
+  ShieldCheck,
+  ShoppingBag,
+} from "lucide-react";
 import { useStore } from "../context/Store";
 import { CartSummary } from "../components/Cart";
 import { EmptyState, StepHeading } from "../components/UI";
