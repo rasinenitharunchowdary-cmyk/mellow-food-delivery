@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-18",
+  "site": "https://mellow-food-delivery-app.netlify.app",
+  "checks": [
+    "Restaurant search",
+    "Vegetarian filter",
+    "Favorite restaurant saved",
+    "Customization price recalculates",
+    "Cart quantity persists after reload",
+    "Invalid coupon rejected",
+    "Coupon capped and total correctly ₹813",
+    "Checkout rejects four missing required fields",
+    "Order confirmation created",
+    "All four tracking statuses",
+    "Tracking state persists after reload",
+    "Order history and reorder",
+    "Mobile navigation opens",
+    "Menu category filter",
+    "Menu search",
+    "Restaurant switch warns before replacement",
+    "Restaurant cart replacement",
+    "Keyboard Escape dismisses dialog",
+    "Mobile header fits viewport",
+    "Coupon minimum spend validation",
+    "Free delivery coupon",
+    "Complete ordering flow on mobile",
+    "Two independent immutable order snapshots",
+    "All offer terms and codes available",
+    "Coupon copy feedback",
+    "Delivery neighborhood selection",
+    "Neighborhood persists after reload",
+    "Sort by lowest price",
+    "Top rated filter",
+    "Food category filter",
+    "Tablet home has no horizontal overflow",
+    "Tablet checkout has no horizontal overflow",
+    "Remove last item yields empty cart",
+    "320px home has no horizontal overflow",
+    "Unknown route has a useful recovery state",
+    "Unknown restaurant handled"
+  ],
+  "consoleErrorsObserved": [],
+  "viewportSettings": [
+    {
+      "width": 320,
+      "height": 740
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 1000
+    }
+  ]
+}

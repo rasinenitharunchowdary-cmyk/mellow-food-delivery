@@ -8,6 +8,10 @@ A complete food delivery frontend built with React, Vite, Tailwind CSS, React Ro
 
 This is a **frontend demonstration**. Restaurants, menus, ratings, checkout and tracking are demo data. No restaurant receives an order and no real payment is collected. Use fictional contact details. Cart and order data remain in your browser’s LocalStorage.
 
+![Mellow desktop home page](docs/screenshots/desktop-home.jpg)
+
+**Submission evidence:** [QA results](docs/QA.md) · [EOD update](docs/EOD_UPDATE_2026-10-18.md) · [Desktop / tablet / mobile screenshots](docs/screenshots/)
+
 ## Quick start
 
 Use Node.js 22 or newer and npm.
