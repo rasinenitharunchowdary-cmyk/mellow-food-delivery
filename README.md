@@ -1,5 +1,9 @@
 # Mellow — Good food. Good mood.
 
+**Live website:** https://mellow-food-delivery-app.netlify.app
+
+**Source:** https://github.com/rasinenitharunchowdary-cmyk/mellow-food-delivery
+
 A complete food delivery frontend built with React, Vite, Tailwind CSS, React Router, Context API and Framer Motion. The design combines softly sculpted clay surfaces, frosted glass, warm peach and sage colors, food photography and responsive layouts.
 
 This is a **frontend demonstration**. Restaurants, menus, ratings, checkout and tracking are demo data. No restaurant receives an order and no real payment is collected. Use fictional contact details. Cart and order data remain in your browser’s LocalStorage.
@@ -39,24 +43,24 @@ npm run preview # serves the production build
 
 ## Routes
 
-| Route | Purpose |
-| --- | --- |
-| `/` | Home, search, categories and restaurant listings |
-| `/restaurant/:id` | Restaurant details, menu and customization |
-| `/favorites` | Saved restaurants |
-| `/offers` | Coupon codes and terms |
-| `/cart` | Items, quantities, coupon and price breakdown |
-| `/checkout` | Delivery details and demo checkout |
-| `/order/:id` | Order confirmation, timeline and recap |
-| `/orders` | Persistent order history and reorder |
+| Route             | Purpose                                          |
+| ----------------- | ------------------------------------------------ |
+| `/`               | Home, search, categories and restaurant listings |
+| `/restaurant/:id` | Restaurant details, menu and customization       |
+| `/favorites`      | Saved restaurants                                |
+| `/offers`         | Coupon codes and terms                           |
+| `/cart`           | Items, quantities, coupon and price breakdown    |
+| `/checkout`       | Delivery details and demo checkout               |
+| `/order/:id`      | Order confirmation, timeline and recap           |
+| `/orders`         | Persistent order history and reorder             |
 
 ## Coupon and pricing rules
 
-| Code | Benefit | Eligibility |
-| --- | --- | --- |
-| `MELLOW20` | 20% off food, capped at ₹150 | Food subtotal at least ₹299 |
-| `FREEDEL` | Waives the ₹35 delivery fee | Food subtotal at least ₹399 |
-| `HELLO100` | ₹100 off food | First saved order; food subtotal at least ₹499 |
+| Code       | Benefit                      | Eligibility                                    |
+| ---------- | ---------------------------- | ---------------------------------------------- |
+| `MELLOW20` | 20% off food, capped at ₹150 | Food subtotal at least ₹299                    |
+| `FREEDEL`  | Waives the ₹35 delivery fee  | Food subtotal at least ₹399                    |
+| `HELLO100` | ₹100 off food                | First saved order; food subtotal at least ₹499 |
 
 One coupon applies per order. Delivery costs ₹35; the platform fee is ₹5. Demo food tax is 5% of the food subtotal after discount, rounded to the nearest rupee. Tax rules and prices are illustrative, not tax advice. Coupon eligibility is rechecked after every quantity change and before checkout. Empty carts carry no fees. Clearing browser storage resets the demo’s first-order eligibility.
 
