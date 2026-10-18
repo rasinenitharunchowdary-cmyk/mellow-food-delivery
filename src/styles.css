@@ -29,7 +29,7 @@ html {
 }
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 0;
 }
 button,
 input,
@@ -4610,4 +4610,13 @@ textarea {
 /* Rotation enlarges the layout bounds of the decorative circular orbit. */
 .orbit-two {
   transform: none;
+}
+
+@media (max-width: 380px) {
+  .categories {
+    margin-left: -14px;
+    margin-right: -14px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }
